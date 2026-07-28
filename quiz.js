@@ -71,10 +71,13 @@ nextBtn.addEventListener("click", function ()
  if (currentQuestion < questions.length) {
     loadQuestion();
   } 
-  else
-  {
-    alert("Quiz Finished!\nYour Score: " + score + "/" + questions.length);
-  }
+  else 
+    {
+    localStorage.setItem("score", score);
+    localStorage.setItem("total", questions.length);
+
+    window.location.href = "results.html";
+}
 });
 
 loadQuestion();

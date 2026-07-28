@@ -21,7 +21,7 @@
 <main>
     <section>
         <h2>Your Result</h2>
-        <p>Your Score: <strong>0 / 10</strong></p>
+        <p>Your Score: <strong id="score"></strong></p>
         <a href="index.html">
             <button>Back to Home</button>
         </a>
@@ -31,6 +31,12 @@
 <footer>
     <p>&copy; 2026 QuizArena Team 7</p>
 </footer>
+<script>
+const score = localStorage.getItem("score");
+const total = localStorage.getItem("total");
+
+document.getElementById("score").innerText = score + " / " + total;
+</script>
 
 </body>
 </html>
