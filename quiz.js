@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-let leaderboard =
-    JSON.parse(localStorage.getItem("leaderboard")) || [];
-
-leaderboard.push({
-    score: score,
-    total: questions.length
-});
-
-localStorage.setItem(
-    "leaderboard",
-    JSON.stringify(leaderboard)
-);
-
-window.location.href = "results.html";
-=======
 let currentQuestion = 0;
 let score = 0;
 
@@ -61,4 +45,3 @@ nextBtn.addEventListener("click", function () {
 });
 
 loadQuestion();
->>>>>>> eb69973 (Updated QuizArena project)
