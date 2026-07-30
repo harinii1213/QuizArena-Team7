@@ -1,112 +1,129 @@
-body{
+/* General */
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background:#f4f7fb;
-    margin:0;
+    background: #f4f7fb;
+    color: #333;
 }
 
-header{
-    background:#4f46e5;
-    color:white;
-    padding:20px;
-    text-align:center;
+/* Header */
+header {
+    background: #4f46e5;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-nav{
-    margin-top:10px;
+header h1 {
+    margin: 0;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+/* Navbar */
+nav {
+    margin-top: 15px;
 }
 
-main{
-    width:80%;
-    margin:30px auto;
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
 
-section{
-    background:white;
-    padding:20px;
-    margin-bottom:20px;
-    border-radius:10px;
-    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+nav a:hover,
+nav a.active {
+    background: white;
+    color: #4f46e5;
 }
 
-button{
-    background:#4f46e5;
-    color:white;
-    border:none;
-    padding:10px 20px;
-    border-radius:5px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#3730a3;
-}
-
-footer{
-    text-align:center;
-    padding:15px;
-    background:#222;
-    color:white;
-    margin-top:20px;
-}
+/* Main */
 main {
     width: 80%;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
-section {
+/* Card */
+section,
+.quiz-box {
     background: white;
-    padding: 20px;
-    margin: 20px 0;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
 }
 
-section h3 {
-    color: #1e3a8a;
-}
-
+/* Buttons */
 button {
-    background: #2563eb;
+    background: #4f46e5;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
+    margin: 8px;
+    font-size: 16px;
 }
 
 button:hover {
-    background: #1d4ed8;
+    background: #3730a3;
 }
 
-body {
-    background: #f4f6f9;
-    font-family: Arial, sans-serif;
-}section{
-    background:#fff;
-    width:300px;
-    margin:20px auto;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.2);
-    text-align:center;
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
 }
 
-section button{
-    background:#1e40af;
-    color:white;
-    border:none;
-    padding:10px 20px;
-    border-radius:6px;
-    cursor:pointer;
+/* Quiz Options */
+.option {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
 }
 
-section button:hover{
-    background:#2563eb;
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background: #000;
+}
+
+.dark-mode footer {
+    background: #000;
+}
+
+.dark-mode section,
+.dark-mode .quiz-box {
+    background: #1f1f1f;
+    color: white;
+}
+
+.dark-mode button {
+    background: #555;
+}
+
+#themeBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}input,
+textarea{
+    width:80%;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    margin:5px;
+}
+
+#status{
+    font-weight:bold;
+    margin-top:15px;
 }

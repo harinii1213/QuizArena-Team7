@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuizArena</title>
+    <title>QuizArena - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <h1>QuizArena</h1>
+
     <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="category.html">Categories</a>
         <a href="quiz.html">Quiz</a>
         <a href="results.html">Results</a>
+        <a href="contact.html">Contact</a>
     </nav>
 </header>
 
 <main>
-    <h2>Welcome to QuizArena</h2>
-    <p>Test your knowledge with fun quizzes.</p>
+    <section>
+        <h2>Welcome to QuizArena</h2>
+        <p>
+            Test your knowledge with fun and interactive quizzes.
+            Choose a category and challenge yourself!
+        </p>
 
-    <a href="category.html">
-        <button>Start Quiz</button>
-    </a>
+        <a href="category.html">
+            <button>Start Quiz</button>
+        </a>
+    </section>
 </main>
 
 <footer>
     <p>&copy; 2026 QuizArena Team 7</p>
 </footer>
+
+<button id="themeBtn">🌙 Dark Mode</button>
+
+<script src="script.js"></script>
 
 </body>
 </html>
