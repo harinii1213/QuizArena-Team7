@@ -45,3 +45,26 @@ nextBtn.addEventListener("click", function () {
 });
 
 loadQuestion();
+const status = document.getElementById("status");
+const quiz = document.getElementById("quiz");
+
+try {
+    status.innerText = "Loading...";
+    
+    setTimeout(() => {
+        status.style.display = "none";
+        quiz.style.display = "block";
+        loadQuestion();
+    }, 1000);
+
+} catch (e) {
+    status.innerText = "Error loading questions!";
+}document.getElementById("loading").style.display = "block";
+
+setTimeout(() => {
+
+document.getElementById("loading").style.display = "none";
+
+loadQuestion();
+
+},1000);

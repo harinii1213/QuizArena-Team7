@@ -1,14 +1,31 @@
-# QuizArena
+# QuizArena - Team 7
 
-## Team 7
+## Project
+QuizArena is a simple quiz application developed as part of the Zyora Internship.
 
-### Members
+## Features
+- Home Page
+- Category Selection
+- Timed Quiz
+- Score Result
+- Dark Mode
+- Contact Page
+- LocalStorage Score Saving
+
+## Team Members
 - Harini Kosal
 - Jenifa Radhakrishnan
 
-### Project
-QuizArena - Quiz App
+## Completed
+- Home Page
+- Categories
+- Quiz Engine
+- Results Page
+- Contact Page
+- Dark Mode
+- LocalStorage
 
-### Work Split
-- Harini: Home Page + Category Page + Questions Data
-- Jenifa: Quiz Engine + Results Page
+## Remaining
+- Leaderboard
+- More Questions
+- UI Improvements

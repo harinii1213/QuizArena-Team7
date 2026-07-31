@@ -51,6 +51,8 @@ const questions = [
       "*",
       "@"
     ],
-    answer: 1
+    answer:
+    localStorage.setItem("score", score);
+localStorage.setItem("total", questions.length);
   }
 ];
