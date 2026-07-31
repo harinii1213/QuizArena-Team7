@@ -1,6 +1,5 @@
 const themeBtn = document.getElementById("themeBtn");
 
-// Apply saved theme
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
 }
