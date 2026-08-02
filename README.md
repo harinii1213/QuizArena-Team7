@@ -1,31 +1,27 @@
-# QuizArena - Team 7
+# QuizArena
 
-## Project
-QuizArena is a simple quiz application developed as part of the Zyora Internship.
+## About
+QuizArena is a simple quiz website where users can answer quizzes and view their scores.
 
 ## Features
-- Home Page
-- Category Selection
-- Timed Quiz
-- Score Result
-- Dark Mode
-- Contact Page
-- LocalStorage Score Saving
-
-## Team Members
-- Harini Kosal
-- Jenifa Radhakrishnan
-
-## Completed
-- Home Page
-- Categories
-- Quiz Engine
-- Results Page
-- Contact Page
-- Dark Mode
-- LocalStorage
-
-## Remaining
+- Multiple quiz questions
+- Dark mode
 - Leaderboard
-- More Questions
-- UI Improvements
+- Responsive design
+- Contact page
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Live Demo
+https://harinii1213.github.io/QuizArena-Team7/
+
+## How to Run
+1. Clone the repository
+2. Open index.html in your browser
+
+## Team
+- Harini
+- Jenifa
