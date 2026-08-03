@@ -1,14 +1,15 @@
 # QuizArena
 
 ## About
-QuizArena is a simple quiz website where users can answer quizzes and view their scores.
+QuizArena is a simple quiz web application that allows users to test their knowledge through interactive quizzes.
 
 ## Features
-- Multiple quiz questions
-- Dark mode
+- Quiz Categories
+- Interactive Quiz
 - Leaderboard
-- Responsive design
-- Contact page
+- Results Page
+- Dark Mode
+- Responsive Design
 
 ## Technologies Used
 - HTML
@@ -18,10 +19,24 @@ QuizArena is a simple quiz website where users can answer quizzes and view their
 ## Live Demo
 https://harinii1213.github.io/QuizArena-Team7/
 
-## How to Run
-1. Clone the repository
-2. Open index.html in your browser
+## Team Members
 
-## Team
-- Harini
-- Jenifa
+### Harini
+- Home Page
+- Categories Page
+- GitHub Pages Deployment
+
+### Jenifa
+- Leaderboard
+- Results Page
+- Project Testing
+
+## What We Learned
+- HTML, CSS, JavaScript
+- Git & GitHub
+- GitHub Pages Deployment
+- Team Collaboration
+
+## How to Run
+1. Clone the repository.
+2. Open `index.html` in your browser.
