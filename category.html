@@ -10,7 +10,6 @@
 
 <header>
     <h1>QuizArena</h1>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="category.html" class="active">Categories</a>
@@ -22,33 +21,34 @@
 </header>
 
 <main>
-
-    <section>
+    <div class="container">
         <h2>Select a Quiz Category</h2>
         <p>Choose any category and start your quiz.</p>
 
-        <a href="quiz.html">
-            <button>💻 Web Development</button>
-        </a>
+        <button onclick="selectCategory('web')">
+            💻 Web Development
+        </button>
 
-        <a href="quiz.html">
-            <button>🤖 Artificial Intelligence</button>
-        </a>
+        <button onclick="selectCategory('ai')">
+            🤖 Artificial Intelligence
+        </button>
 
-        <a href="quiz.html">
-            <button>🗄 Database</button>
-        </a>
-
-    </section>
-
+        <button onclick="selectCategory('database')">
+            🗄️ Database
+        </button>
+    </div>
 </main>
 
 <footer>
-    <p>&copy; 2026 QuizArena Team 7</p>
+    <p>© 2026 QuizArena Team 7</p>
 </footer>
 
-
-<script src="script.js"></script>
+<script>
+function selectCategory(category) {
+    localStorage.setItem("category", category);
+    window.location.href = "quiz.html";
+}
+</script>
 
 </body>
 </html>

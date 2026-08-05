@@ -47,17 +47,6 @@ const total = localStorage.getItem("total");
 
 document.getElementById("score").innerText = score + " / " + total;
 </script>
-
+<script src="result.js"></script>
 </body>
 </html>
-function restartQuiz() {
-    localStorage.clear();
-    window.location.href = "quiz.html";
-}
-
-<script src="script.js"></script>
-let score = localStorage.getItem("score");
-let total = localStorage.getItem("total");
-
-document.getElementById("result").innerHTML =
-`Your Score: ${score} / ${total}`;

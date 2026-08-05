@@ -80,10 +80,20 @@ footer {
 }
 
 /* Quiz Options */
-.option {
-    display: block;
+.option-btn {
     width: 100%;
+    padding: 12px;
     margin: 10px 0;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.option-btn:hover {
+    background: #0b5ed7;
 }
 
 /* Dark Mode */
